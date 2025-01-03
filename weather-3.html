@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<style>
+    body{
+        background: #8c52ff;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        height:100vh;
+        margin:0;
+    }
+    /* .weather-container{
+        background: rgba(255,255,255,0.3);
+        max-width: 400px;
+        padding:20px;
+        border-radius: 15px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        backdrop-filter: blur(10px);
+        border:1px solid #ffffff
+    } */
+</style>
+<body>
+    <div id="weather-container">
+        <h2>Weather App</h2>
+        <input type="text" placeholder="Enter City" id="city">
+        <button onclick="getWeather()">search</button>
+    </div>
+</body>
+</html>
